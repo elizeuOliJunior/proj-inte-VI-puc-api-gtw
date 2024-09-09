@@ -2,7 +2,7 @@
 
 ## Repository Information
 - *Name:* proj-inte-VI-puc-api-gateway
-- *GitHub Link:* [proj-inte-VI-puc-api-gateway](https://github.com/elizeuJr-puc/proj-inte-VI-puc-api-gateway)
+- *GitHub Link:* [proj-inte-VI-puc-api-gateway](https://github.com/elizeuOliJunior/proj-inte-VI-puc-api-gtw?tab=readme-ov-file)
 
 ## Adding a New Microservice Route
 To add a new microservice route to the project, you need to first edit the ocelot.json file, which contains all the routing configurations for the API Gateway. Follow these steps:
