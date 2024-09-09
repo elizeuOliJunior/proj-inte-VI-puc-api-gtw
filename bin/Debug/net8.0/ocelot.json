@@ -1,0 +1,22 @@
+﻿
+//passar as rotas de cada microsservico
+
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/servicoX/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5001
+        }
+      ],
+      "UpstreamPathTemplate": "/servicoX/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:5000"
+  }
+}
